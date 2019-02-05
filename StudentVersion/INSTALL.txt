@@ -1,0 +1,33 @@
+Getting Started
+===============
+You will need to use CMake to build the appropriate project/makefiles for your target environment. 
+
+e.g. Windows
+1. Goto .\advanced-visualisation-p1
+2. Run mkdir build2015
+3. Run cd build2015
+4. Run cmake -G "Visual Studio 14" ../.
+5. Open the solution and build
+
+e.g. Linux
+1. Intall the needed packages:
+   $ sudo apt-get install -y libsdl2-dev libglew-dev freeglut3-dev
+2. Goto ./advanced-visualisation-p1
+3. mkdir build && cd build
+4. Run 
+    $ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+5. Run
+    $ make
+    
+If you use LINUX we recommend Qt Creator (Community)
+
+e.g. Apple
+1. Download and Install a Compatible version of Mac Ports depending on your OS, from this website:
+    https://www.macports.org/
+2. In a terminal run:
+    $ sudo port install -y libsdl2
+3. Goto ./advanced-visualisation-p1
+4. mkdir build && cd build
+5. Run 
+    $ cmake -G "Xcode" ..
+6. Open the solution and build
