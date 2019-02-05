@@ -3,7 +3,7 @@
 PENDING to be refracted
 
 This is a project I did for a subject called Advanced Visualization at Universitat Pompeu Fabra which renders a 3D Scene with different types of illumination and shaders.
-It is written in C++ with OpenGl libraries
+It is written in C++ with OpenGL libraries
 
 # Installation
 
